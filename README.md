@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the code and resources for the paper titled "Cardiovascular Disease Diagnosis through Cardiac Image Segmentation" accepted for ISBI 2024 – International Symposium on Biomedical Imaging.
+This repository contains the code and resources for the paper titled "Cardiovascular Disease Diagnosis through Cardiac Image Segmentation," accepted for ISBI 2024 – International Symposium on Biomedical Imaging. https://biomedicalimaging.org/2024/
 
 ## Abstract
 
@@ -10,19 +10,16 @@ Automated diagnosis of cardiovascular disease relies on cardiac image segmentati
 
 ## Methodology
 
-[Include additional details about the methodology and technical aspects of the approach.]
-
-## Getting Started
-
-[Provide instructions on how to get started with the code and run experiments.]
+Overview of the proposed CroCNet pipeline. (a) E-2AUNet architecture for initial segmentation in the first stage. The cropped image and initial binary segmentations are fed into (b) specialist networks (LV-Net, RV-Net, and MYO-Net) to
+refine the predictions for each cardiac region. We leverage (c) efficient additive attention, including (d) a cross-E2A block that implements cross-attention to intermingle features between the specialist networks.
 
 ## Results
 
-[Include summary and visual representations of results obtained using the proposed method.]
+Comparison of the results obtained from different methods. Methods indicated with the ∗ use of multi-view inputs.
 
 ## Citation
 
-If you find our work useful, please consider citing our paper:
+Abbas Khan, Muhammad Asad, Martin Benning, Caroline Roney, Gregory Slabaugh, 'Crop and Couple: cardiac image segmentation using interlinked specialist networks', https://arxiv.org/abs/2402.09156
 
 [Include citation details once available.]
 
