@@ -1,4 +1,4 @@
-# Crop and Couple: cardiac image segmentation using interlinked specialist networks
+# Crop and Couple: Cardiac image segmentation using interlinked specialist networks
 
 ## Introduction
 
