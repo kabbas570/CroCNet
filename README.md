@@ -1,4 +1,4 @@
-# Cardiovascular Disease Diagnosis through Cardiac Image Segmentation
+# Crop and Couple: cardiac image segmentation using interlinked specialist networks
 
 ## Introduction
 
