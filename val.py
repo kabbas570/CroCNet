@@ -67,8 +67,8 @@ def blend(image,LV,MYO,RV,three):
     image = normalize(image)
     image = np.stack((image,)*3, axis=2)
     image[np.where(LV==1)] = [0.9,0.9,0]
-    image[np.where(MYO==1)] = [0.9,0,0]
     image[np.where(RV==1)] = [0,0,0.9]
+    image[np.where(MYO==1)] = [0.9,0,0]
     image = make_edges(image,three)
     return image
     
